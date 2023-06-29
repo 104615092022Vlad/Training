@@ -23,7 +23,7 @@ public class MainTest {
     }
 
     @Test
-    @DisplayName("Выбор любой подкатегории")
+    @DisplayName("Test #1")
     public void selectAnySubcategory() {
         $(".inline-block .callback-block").click();
         $("[name='CALLBACK']").shouldBe(Condition.visible);
